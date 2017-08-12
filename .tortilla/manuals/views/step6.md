@@ -762,7 +762,7 @@ We can group our messages right after being fetched by the `Observable` using th
  ┊ 5┊ 4┊import { Messages } from 'api/collections';
  ┊ 6┊ 5┊import { MeteorObservable } from 'meteor-rxjs';
 +┊  ┊ 6┊import * as moment from 'moment';
-+┊  ┊ 7┊import { _ } from 'meteor/underscore';
++┊  ┊ 7┊import * as _ from 'underscore';
  ┊ 7┊ 8┊
  ┊ 8┊ 9┊@Component({
  ┊ 9┊10┊  selector: 'messages-page',
